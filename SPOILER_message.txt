@@ -1,0 +1,110 @@
+package naofuncionaaaaaa;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args) {
+
+Scanner in = new Scanner(System.in); 
+int contador = 0; 
+
+String nome;  
+System.out.println("seja bem vindo(a) ao jogo Carlos Batista, insira seu nome");
+nome = in.nextLine(); 
+System.out.println("Olá " + nome +" seja bem vindo(a)"); 
+System.out.println("você se encontra em um ambiente estranho, você bebeu demais no outro dia e não se lembra de como foi parar aí, você suspeita que esteja na lagoinha, mas precisa voltar para casa rápido, para qual direcão voce vai?(norte, sul leste ou oeste?)");
+String comando = in.nextLine(); 
+if (comando.equals("norte")) { 
+	System.out.println("você ruma a norte...");
+	while (contador > 10); {
+		System.out.println("...");
+		contador +=5; 
+	}
+System.out.println("...você encontrou uma caverna, deseja adentra-lá?");
+comando = in.nextLine();
+if (comando.equals("sim")) {
+	System.out.println("a caverna era a boca de um gigantesco Carlos Batata, você foi devorado vivo");
+} else { 
+System.out.println("enquanto você decidia se iria entrar ou não, aparece um ser meio homem meio meme conhecido como je ege, o senhor das florestas, ele te mata a sangue frio  com seu 200 de CPS");
+System.out.println("você morreu, diz o Fausto Silva muito triste e de óculos escuros");
+} 
+	
+}else if (comando.equals("sul")) {
+System.out.println("você ruma a sul...");	
+while (contador > 10); {
+	System.out.println("...");
+	contador +=5;      }
+System.out.println("você encontra um lago e logo após deste lago está uma casa encima de um pequeno monte, para aonde você vai?(lago ou monte?");
+comando = in.nextLine();
+if (comando.equals("monte")) {
+System.out.println("você caminha até o monte, ao chegar na casa, um boi com os maiores chifres do mundo e com corpo de venigod chama você(" +nome  + ") de sonegador de imposto e estoura sua cara com uma m16");
+System.out.println("você foi morto pelo boi agiota");
+}else if(comando.equals("lago")) { 
+System.out.println("você decide nadar no lago pra tirar esse cheiro de cu de gato quje você tem por algum motivo, quando você entra no lago, você descobre que existe um grande peixe(tamanho da minha trolha ou seja 45 metros) ele te expulsa da casa dele e diz que você(" + nome +") pode ir pra casa do caralho");
+System.out.println("você tenta voltar para onde estava, mas o homem meme, je ege arranca seu braco e enfia ele no seu cu, fazendo com que ele saia pela boca.");
+System.out.println("você morreu, diz o Renato Aragão(não é o didi) triste com pão na mão");
+}else { 
+System.out.println("enquanto você pensava no preximo movimento como um pica blindada, carlos batata comeu você em todos os sentidos");
+System.out.println("você morreu tristemente como um buffet de camarão por 5,99 reais, diz seu pai, aquele gordo, kkk");
+}
+
+}else if(comando.equals("leste")) {  
+System.out.println("você ruma a leste...");
+while (contador > 10); {
+	System.out.println("...");
+	contador +=5;      }
+System.out.println("...você acha uma pequena floresta com um pequeno sapo com um chapéu, você deseja falar com ele?");
+comando = in.nextLine();
+if (comando.equals("sim")) {
+System.out.println("o sapo lhe fala uma frase muito sábia: 'não tenha medo quando o inimigo tem salame'");
+System.out.println("'mas..', ele fala 'quero seu cu em troca dessa dica de sabedoria,"+nome + "', você vai deixar ele te possuir?"); 
+comando = in.nextLine(); 
+if (comando.equals("sim")) { 
+System.out.println("na da acão, ele ficou tão ansioso que arrombou seu cu ate você cagar sangue sem parar");
+System.out.println("menstruacao masculina não é sinal bom, disse Chorão(charlie brown junior) em seu skate"); 
+System.out.println("você morreu");
+}else {
+System.out.println("o sapo faz uma magica que faz seu cu explodir'se eu não posso ter, ninguém pode' diz ele");	
+}
+
+}else { 
+System.out.println("aparece uma luz no céu que explode seu anus, comeca a vazar sangue do seu cu e você morre de emmorragia anal ");
+}
+
+
+} else if (comando.equals("oeste")) {
+	System.out.println("você ruma a oeste...");
+	while (contador > 10); {
+		System.out.println("...");
+	}
+	System.out.println("...você encontra uma muralha cercando o aimbiente que você se encontra, nessa muralha tem uma calculadora que pede uma senha em letras e a foto do seu tio,aquele traveco do lado");
+	System.out.println("qual é a senha?");
+	comando = in.nextLine(); 
+	if (comando.equals("não tenha medo quando o inimigo tem salame")) {
+		System.out.println("Você sai daquele lugar terrível e volta pra casa com sucesso...");
+		System.out.println("... 20 anos depois - Londres - ...");
+		System.out.println("você fala para sua familia que você vai fazer a feira");
+		System.out.println("na volta, o homem meme te da uma facada e você morre, sua familia acha que você fugiu e sua mulher dá para o entregador do sedex");
+		System.out.println("Obrigado por Jogar");
+		}else {
+			System.out.println("da calculadora sai um penis de borracha com laminas de barbear que corta sua garganta e viola seu cu, fazendo de você assim um churros sangrento");
+			System.out.println("você morreu");
+		}
+
+	
+} else {
+	System.out.println("enquanto você pensava em sopa de macaco você foi atacado pela terrível pista do baiacu rodas-quentes(competidora nacional da hotwheels) e foi esquartejado vivo parecendo carne moída");
+	System.out.println("ERRROU, diz fausto silva com coroa");
+}
+
+
+
+
+
+
+}
+
+
+}
